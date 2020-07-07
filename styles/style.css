@@ -1,7 +1,4 @@
-* {
-    scroll-behavior: smooth;
 
-}
 
 
 body {
@@ -141,20 +138,22 @@ hr {
 .course-content {
     text-align: justify;
     padding: 5%;
+   
 }
 .course-content a {
    font-weight: 500;
    text-decoration: none;
-   color: #eac2c2;
-}
+ }
+
 .course-content:hover {
     -webkit-box-shadow: 7px 11px 28px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 11px 28px 5px rgba(0,0,0,0.75);
     box-shadow: 7px 11px 28px 5px rgba(0,0,0,0.75);
-    width: 105%;
-    height: 105%;
+    width: 100%;
+    height: 100%;
     background: black;
-    z-index: 10;
+    z-index: 10px;
+ 
 }
 
 @media (max-width: 760px) {

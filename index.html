@@ -39,10 +39,10 @@
             <img class="profilepic" alt="foto de Marianna" src="img/profile.jpg.jpg">
             <div class="contacts">
                 <h3>Contatos:</h3>
-                <a href="https://www.linkedin.com/in/mariannacamillorocha1988/" target="_blank">
+                <a href="https://www.linkedin.com/in/mariannacamillorocha1988/" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/MARIANNACROCHA" target="_blank">
+                <a href="https://github.com/MARIANNACROCHA" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="mailto:marianna.camillo@gmail.com" target="_blank">
@@ -138,7 +138,11 @@
             </div>
         </div>
     </section>
-    <audio src="music/bensound-elevate.mp3" controls autoplay loop><p>Seu nevegador não suporta o elemento audio.</p></audio>
+    <audio autoplay="autoplay" controls="controls">
+        <source src="music/bensound-elevate.mp3" type="audio/mp3"/>
+        seu navegador não suporta HTML5
+    </audio>
+    
     
 </body>
 </html>
